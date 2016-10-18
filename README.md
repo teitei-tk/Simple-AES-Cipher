@@ -1,6 +1,8 @@
 # Simple-AES-Cipher
 Pycrypto based Simple And Easy AES Cipher
 
+[![Build Status](https://travis-ci.org/teitei-tk/Simple-AES-Cipher.svg?branch=master)](https://travis-ci.org/teitei-tk/Simple-AES-Cipher)
+
 ### Dependencies
 * Python 2.7 or later
 * Pycrypto 2.6.1 or later
