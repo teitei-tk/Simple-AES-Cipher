@@ -1,5 +1,5 @@
 # Simple-AES-Cipher
-Pycrypto based Simple And Easy Cipher on AES
+Pycrypto based Simple And Easy AES Cipher
 
 ### Dependencies
 * Python 2.7 or later
@@ -27,6 +27,11 @@ assert raw_text != encrypt_text
 decrypt_text = cipher.decrypt(encrypt_text)
 assert encrypt_text != decrypt_text
 assert decrypt_text == raw_text
+```
+
+### Convert md to rst
+```bash
+$ pandoc --from=markdown --to=rst --output=README.rst README.md
 ```
 
 ## LICENSE

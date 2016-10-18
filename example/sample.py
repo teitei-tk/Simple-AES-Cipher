@@ -17,3 +17,10 @@ assert raw_text != encrypt_text
 decrypt_text = cipher.decrypt(encrypt_text)
 assert encrypt_text != decrypt_text
 assert decrypt_text == raw_text
+
+
+f = open('README.rst')
+doc = f.read()
+f.close()
+
+print(doc)
