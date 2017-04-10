@@ -12,7 +12,7 @@ f = open('README.rst')
 __doc__ = f.read()
 f.close()
 
-import simple_aes_cipher
+VERSION = "1.0.6"
 
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -22,10 +22,9 @@ classifiers = [
     "Topic :: Software Development",
     "Topic :: Software Development :: Libraries",
 ]
-
 setup(
     name='Simple-AES-Cipher',
-    version=simple_aes_cipher.__VERSION__,
+    version=VERSION,
     description='Pycrypto based Simple And Easy Cipher on AES',
     long_description=__doc__,
     author='teitei-tk',

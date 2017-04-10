@@ -2,5 +2,6 @@
 
 from .cipher import AESCipher
 from .secret_key import generate_secret_key
+from .version import VERSION
 
-__VERSION__ = '1.0.1'
+__VERSION__ = VERSION
