@@ -1,8 +1,7 @@
 # Simple-AES-Cipher
 [![Build Status](https://travis-ci.org/teitei-tk/Simple-AES-Cipher.svg?branch=master)](https://travis-ci.org/teitei-tk/Simple-AES-Cipher)
 
-Pycrypto based Simple And Easy AES Cipher
-
+Pycrypto based very simple AES cipher client
 
 ### Dependencies
 * Python 2.7 or later
@@ -32,10 +31,8 @@ assert encrypt_text != decrypt_text
 assert decrypt_text == raw_text
 ```
 
-### Convert md to rst
-```bash
-$ pandoc --from=markdown --to=rst --output=README.rst README.md
-```
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/teitei-tk/Simple-AES-Cipher.
 
 ## LICENSE
 * MIT
